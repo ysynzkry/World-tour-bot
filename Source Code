@@ -1,0 +1,57 @@
+print("welcome to the world tour bot")
+print("press 1 to visit Europe")
+print("press 2 to visit Asia")
+print("press 3 to visit Africa")
+choice=input("enter the choice to select your continent:  ")
+if (choice == "1") :
+    print("welcome to Europe")
+    country=input()
+    if (country == "England") :
+        print("welcome to the land of football")
+        print("England is a country that is part of the United Kingdom.[4] It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest and the Celtic Sea area of the Atlantic Ocean to the southwest. It is separated from continental Europe by the North Sea to the east and the English Channel to the south. The country covers five-eighths of the island of Great Britain, which lies in the North Atlantic, and includes over 100 smaller islands, such as the Isles of Scilly and the Isle of Wight.")
+    elif (country == "France") :
+        print("welcome to the land of bakery")
+        print("Napoleon Bonaparte seized control of the Republic in 1799 becoming First Consul and later Emperor of the French Empire (1804–1814; 1815). As a continuation of the wars sparked by the European monarchies against the French Republic, changing sets of European Coalitions ")
+   elif (country == "Germany"):
+      print("welcome to the mannschaft")
+      print("Football is the most popular sport in Germany. With more than 7 million official members, the German Football Association (Deutscher Fußball-Bund) is the largest single-sport organisation worldwide,[286] and the German top league, the Bundesliga, attracts the second-highest average attendance of all professional sports leagues in the world.[287] The German men's national football team won the FIFA World Cup in 1954, 1974, 1990, and 2014,[288] the UEFA European Championship in 1972, 1980 and 1996,[289] and the FIFA Confederations Cup in 2017.[290]")
+   else:
+       
+    country=input("select from England , France and Germany")
+
+elif (choice == "2") :
+    print("welcome to Africa")
+    country=input()
+    if (country == " Egypt") :
+        print("welcome to the  land of blood and sweat")
+        print("Egypt has one of the longest histories of any country, tracing its heritage along the Nile Delta back to the 6th–4th millennia BCE. Considered a cradle of civilisation, Ancient Egypt saw some of the earliest developments of writing, agriculture, urbanisation, organised religion and central government.[14] Iconic monuments such as the Giza Necropolis and its Great Sphinx, as well the ruins of Memphis, Thebes, Karnak, and the Valley of the Kings, reflect this legacy and remain a significant focus of scientific and popular interest. Egypt's long and rich cultural heritage is an integral part of its national identity, which reflects its unique transcontinental location being simultaneously Mediterranean, Middle Eastern and North African.[15] Egypt was an early and important centre of Christianity, but was largely Islamised in the seventh century and remains a predominantly Sunni Muslim country, albeit with a significant Christian minority, along with other lesser practiced faiths.")
+    elif (country == "Morocco") :
+        print("welcome to the heart of the meddetrian sea")
+        print("The area of present-day Morocco has been inhabited since at least Paleolithic times, beginning sometime between 190,000 and 90,000 BC.[30] A recent publication has suggested that there is evidence for even earlier human habitation of the area: Homo sapiens fossils that had been discovered in the late 2000s near the Atlantic coast in Jebel Irhoud were recently dated to roughly 315,000 years ago.[31] During the Upper Paleolithic, the Maghreb was more fertile than it is today, resembling a savanna, in contrast to its modern arid landscape.[32] Twenty-two thousand years ago, the pre-existing Aterian culture was succeeded by the Iberomaurusian culture, which shared similarities with Iberian cultures. Skeletal similarities have been suggested between the human remains found at Iberomaurusian Mechta-Afalou burial sites and European Cro-Magnon remains. The Iberomaurusian culture was succeeded by the Beaker culture in Morocco.")
+
+   elif (country == "Cameroon"):
+      print("welcome to The Indomitable Lions ")
+      print("Present-day Cameroon was first settled in the Neolithic Era. The longest continuous inhabitants are groups such as the Baka (Pygmies).[16] From there, Bantu migrations into eastern, southern and central Africa are believed to have occurred about 2,000 years ago.[17] The Sao culture arose around Lake Chad, c. 500 AD, and gave way to the Kanem and its successor state, the Bornu Empire. Kingdoms, fondoms, and chiefdoms arose in the west.[18]'s national poet Alexander Pushkin.[citation needed]")
+   else:
+       
+    country=input("select from Egypt, Morocco and Cameroon")
+
+
+elif (choice == "3") :
+    print("welcome to Asia")
+    country=input()
+    if (country == "India") :
+        print("welcome to the land of mystery and diversty")
+        print("By 55,000 years ago, the first modern humans, or Homo sapiens, had arrived on the Indian subcontinent from Africa, where they had earlier evolved.[26][27][28] The earliest known modern human remains in South Asia date to about 30,000 years ago.[26] After 6500 BCE, evidence for domestication of food crops and animals, construction of permanent structures, and storage of agricultural surplus appeared in Mehrgarh and other sites in what is now Balochistan, Pakistan.[81] These gradually developed into the Indus Valley Civilisation,[82][81] the first urban culture in South Asia,[83] which flourished during 2500–1900 BCE in what is now Pakistan and western India.[84] Centred around cities such as Mohenjo-daro, Harappa, Dholavira, and Kalibangan, and relying on varied forms of subsistence, the civilisation engaged robustly in crafts production and wide-ranging trade.[83].")
+    elif (country == "China") :
+        print("welcome to the land of technology")
+        print("The Warring States period ended in 221 BCE after the state of Qin conquered the other six kingdoms, reunited China and established the dominant order of autocracy. King Zheng of Qin proclaimed himself the First Emperor of the Qin dynasty. He enacted Qin's legalist reforms throughout China, notably the forced standardization of Chinese characters, measurements, road widths (i.e., the cart axles' length), and currency. His dynasty also conquered the Yue tribes in Guangxi, Guangdong, and Vietnam.[56] The Qin dynasty lasted only fifteen years, falling soon after the First Emperor's death, as his harsh authoritarian policies led to widespread rebellion.[57][58]")
+
+   elif (country == "Singapore"):
+      print("welcome to the global financial center")
+      print("Singapore became independent as the Republic of Singapore on 9 August 1965,[97][98] with Lee Kuan Yew and Yusof bin Ishak as the first prime minister and president respectively.[99][100] In 1967, the country co-founded the Association of Southeast Asian Nations (ASEAN).[101] Race riots broke out once more in 1969.[102] Lee Kuan Yew's emphasis on rapid economic growth, support for business entrepreneurship, and limitations on internal democracy shaped Singapore's policies for the next half-century.[103][104] Economic growth continued throughout the 1980s, with the unemployment rate falling to 3% and real GDP growth averaging at about 8% up until 1999. During the 1980s, Singapore began to shift towards high-tech industries, such as the wafer fabrication sector, in order to remain competitive as neighbouring countries began manufacturing with cheaper labour. Singapore Changi Airport was opened in 1981 and Singapore Airlines was formed.[105] The Port of Singapore became one of the world's busiest ports and the service and tourism industries also grew immensely during this period.[106][107]")
+   else:
+       
+    country=input("select from India, China and Singapore")
+else:
+    print("invalid input")
